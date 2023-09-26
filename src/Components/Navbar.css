@@ -1,0 +1,37 @@
+/* Navbar.css */
+
+/* Style for the entire navbar */
+.bg-dark.navbar {
+    background-color: #343a40;
+    padding: 15px 0;
+    border-bottom: 2px solid #007bff; /* Add a border at the bottom */
+  }
+  
+  /* Style for the brand/logo */
+  .navbar-brand {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Style for the navigation links */
+  .navcontent .nav-link {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  /* Style for the navigation links on hover */
+  .navcontent .nav-link:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  /* Style for the active link */
+  .navcontent .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
